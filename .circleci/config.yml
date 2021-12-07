@@ -20,6 +20,6 @@ jobs:
             echo $MY_ENV_VAR # this env var must be set within the project
       
       - run:
-          name: "echo an env var that is part of our project"
+          name: "echo a built-in env var that is part of our project"
           command: |
-            echo $CIRCLE_USERNAME # this env var must be set within the project
+            echo $CIRCLE_USERNAME
